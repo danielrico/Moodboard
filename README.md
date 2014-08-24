@@ -1,4 +1,4 @@
 Moodboard
 =========
 
-Wordpress theme ofr http://www.daniel-rico.com/moodboard
+Wordpress theme for http://www.daniel-rico.com/moodboard
