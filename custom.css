@@ -1,0 +1,30 @@
+/* login screen */
+
+body{
+  background-image: url(img/bg_login.jpg);
+  background-repeat: no-repeat;
+  background-position: center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+}
+#login {
+  padding: 5% 0 0;
+}
+#login h1 a{
+margin: 0 0 5px 0;
+width: auto;
+height: 30px;
+background: url(https://i.cloudup.com/vLZDbLhnvA.png) center no-repeat;
+}
+.login .message {
+  border-left: 0;
+  background-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.login form {
+  padding: 26px 24px 36px;
+}

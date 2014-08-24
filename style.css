@@ -1,0 +1,81 @@
+/*
+Theme Name: Moodboard
+Description : Simple image gallery with masonry layout
+Author: Daniel Rico
+Author URI: http://www.daniel-rico.com
+*/
+/* Dependencies */
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, a, em, img, dl, dt, dd, ol, ul, li, fieldset, form, legend, label, input, textarea, button { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline; font-weight: normal; }
+
+:focus { outline: none; }
+
+a { text-decoration: none; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+textarea { overflow: auto; }
+
+/*removes IE scrollbar */
+img { vertical-align: top; }
+
+/* Drupal */
+ul li.leaf, ul li.expanded, ul li.collapsed, ul.menu li, .item-list ul li, .block ul, ul.tabs { list-style-type: none; list-style-image: none; margin: 0; padding: 0; }
+
+input, select, textarea { vertical-align: middle; }
+
+tr.even, tr.odd { background: none; border: 0; padding: 0; }
+
+.grippie { display: none; }
+
+.form-item, .form-actions, .panel-2col-stacked .panel-separator { margin: 0; padding: 0; }
+
+.form-submit { cursor: pointer; }
+
+/* Clearfix as a class */
+.cf:before, .cf:after { content: ""; display: table; }
+
+.cf:after { clear: both; }
+
+.cf { zoom: 1; }
+
+/* HTML 5 */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary { display: block; }
+
+audio, canvas, video { display: inline-block; }
+
+audio:not([controls]) { display: none; height: 0; }
+
+/* Box model 
+*, *:before, *:after { -webkit-box-sizing: border-box;  -moz-box-sizing: border-box;  box-sizing: border-box;
+}*/
+/* Text rendering */
+html { font-family: "sans-serif"; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; }
+
+/* Micro clearfix */
+/* Float alternative. About whitespace : http://css-tricks.com/fighting-the-space-between-inline-block-elements */
+/* Responsive images : parent element's full width */
+/* Main theme colors */
+/* Main styles */
+body { background: #333; font-family: 'Nunito', sans-serif; font-weight: 400; }
+
+header { background: white; box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.3); left: 0; position: fixed; top: 0; width: 100%; z-index: 1; }
+
+#container { padding-top: 50px; }
+
+#logo { float: left; background: #222; height: 50px; }
+#logo a { color: white; display: block; font-size: 1.1em; height: 50px; line-height: 50px; padding: 0 15px; }
+
+nav { float: right; font-size: .9em; margin-right: 12px; }
+nav li { display: inline-block; *display: inline; *zoom: 1; vertical-align: top; height: 50px; line-height: 48px; margin: 0 8px; }
+nav li a { color: #aaa; }
+nav li.current-cat a { color: #222; }
+
+.item { width: 33.333%; }
+.item img { height: auto; width: 100%; transition: opacity ease-in-out .2s; }
+.item img:hover { opacity: .8; }
+
+/* Media queries */
+@media screen and (max-width: 1024px) { .item { width: 50%; } }
+@media screen and (max-width: 640px) { .item { width: 100%; } }
